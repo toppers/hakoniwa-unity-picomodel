@@ -89,9 +89,16 @@ Unityのパッケージマネージャから Newtonsoft.Jsonをインストー�
 
 下図のように、Unity のシーンをダブルクリックします。
 
-TODO
+![スクリーンショット 2023-08-28 7 58 37](https://github.com/toppers/hakoniwa-unity-picomodel/assets/164193/d60d2bb2-ee77-441c-aed8-a07a0ada17f4)
 
-そして、｀Window/Hakoniwa/Generate` をクリックします。
 
-TODO
+そして、`Window/Hakoniwa/Generate` をクリックします。
+
+![スクリーンショット 2023-08-28 7 59 45](https://github.com/toppers/hakoniwa-unity-picomodel/assets/164193/85ab96b7-fd8b-4547-a4a3-c386d0a35813)
+
+
+成功すると、コンソール上にエラーログ出力がなく、下図のように json のログが出力されています。
+
+![スクリーンショット 2023-08-28 8 00 16](https://github.com/toppers/hakoniwa-unity-picomodel/assets/164193/6fa55a56-1693-4728-b0ef-091e10fb4b22)
+
 
