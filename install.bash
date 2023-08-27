@@ -17,4 +17,4 @@ cd ..
 
 cp -rp pico/Assets/* plugin/plugin-srcs/Assets/
 cp -rp pico/ros_types/* plugin/plugin-srcs/ros_types/
-cp pico/hakoniwa_path.json lugin/plugin-srcs/
+cp pico/hakoniwa_path.json plugin/plugin-srcs/
