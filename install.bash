@@ -10,10 +10,10 @@ else
     exit 1
 fi
 
-
-cp -rp pico/Assets/* plugin/plugin-srcs/Assets/
-cp -rp pico/ros_types/* plugin/plugin-srcs/ros_types/
-
 cd plugin
 
 bash install.bash
+cd ..
+
+cp -rp pico/Assets/* plugin/plugin-srcs/Assets/
+cp -rp pico/ros_types/* plugin/plugin-srcs/ros_types/
