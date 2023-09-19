@@ -101,4 +101,16 @@ Unityのパッケージマネージャから Newtonsoft.Jsonをインストー�
 
 ![スクリーンショット 2023-08-28 8 00 16](https://github.com/toppers/hakoniwa-unity-picomodel/assets/164193/6fa55a56-1693-4728-b0ef-091e10fb4b22)
 
+# 本リポジトリの内容とライセンスについて
 
+本リポジトリで公開している箱庭向けUnityアセットは、[hakoniwa-mros2sim](https://github.com/toppers/hakoniwa-mros2sim)と同時に用いることを想定しています。
+利用手順の詳細はそちらのリポジトリもご参照ください。
+
+箱庭向けUnityアセットとしての仮想化対象は、株式会社アールティより販売されている[Pi:Co Classic3 マイクロマウス学習キット](https://rt-net.jp/products/pico-classic3/)です。
+[rt-net/pico_ros](https://github.com/rt-net/pico_ros)で公開されている[URDFモデル](https://github.com/rt-net/pico_ros/tree/main/pico_description/urdf)のデータを基にして、箱庭環境で動作可能なUnityアセットに変換しています。
+
+(C) 2023 RT Corporation & TOPPERS Project
+
+各ファイルはライセンスがファイル中に明記されている場合、そのライセンスに従います。特に明記されていない場合は、Apache License, Version 2.0に基づき公開されています。  
+ライセンスの全文は[LICENSE.md](./LICENSE.md)または[https://www.apache.org/licenses/LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0)から確認できます。  
+ライセンスの所有者は[株式会社アールティ](https://rt-net.jp/)および[TOPPERSプロジェクト](https://toppers.jp/)です。
