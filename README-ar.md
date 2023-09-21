@@ -12,8 +12,7 @@ Platformを iOS にして、`switch platform` を選択します。
 
 既存のシーンを削除します。
 
-!
-[スクリーンショット 2023-09-21 12 25 59](https://github.com/toppers/hakoniwa-unity-picomodel/assets/164193/9a0aa95e-7ba0-4dd1-85aa-c7e9106b2301)
+![スクリーンショット 2023-09-21 12 25 59](https://github.com/toppers/hakoniwa-unity-picomodel/assets/164193/9a0aa95e-7ba0-4dd1-85aa-c7e9106b2301)
 
 
 ## Package Manager
