@@ -8,8 +8,8 @@
 - Homebrew
 - Unity Hub
 - Unity（各CPUアーキテクチャに対応したもの）
-  - 2021.3.17f1 以降
-- Python3.10（pyenvでインストールされたもの）
+  - 2022.3.5f1 以降
+- Python 3.10（pyenvでインストールされたもの）
 
 # インストール方法
 
@@ -28,7 +28,7 @@ cd hakoniwa-unity-picomodel/
 そして、必要な Unity モジュール類をインストールします。
 
 ```
- bash install.bash 
+bash install.bash 
 ```
 
 
@@ -39,6 +39,8 @@ cd hakoniwa-unity-picomodel/
 注意：Unityエディタは、当該CPUアーキテクチャに対応したものをインストールしてご利用ください。
 
 対象フォルダ：hakoniwa-unity-picomodel\plugin\plugin-srcs
+
+Unityのバージョン違いに起因するメッセージ（"Opening Project in Non-Matching Editor Installation"）が出る場合は、「Continue」として問題ありません。
 
 以下のダイアログが出ますが、`Continue` してください。
 
