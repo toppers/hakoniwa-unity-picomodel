@@ -8,8 +8,8 @@
 - Homebrew
 - Unity Hub
 - Unity（各CPUアーキテクチャに対応したもの）
-  - 2021.3.17f1 以降
-- Python3.10（pyenvでインストールされたもの）
+  - 2022.3.5f1 以降
+- Python 3.10（pyenvでインストールされたもの）
 
 # インストール方法
 
@@ -28,7 +28,7 @@ cd hakoniwa-unity-picomodel/
 そして、必要な Unity モジュール類をインストールします。
 
 ```
- bash install.bash 
+bash install.bash 
 ```
 
 
@@ -39,6 +39,8 @@ cd hakoniwa-unity-picomodel/
 注意：Unityエディタは、当該CPUアーキテクチャに対応したものをインストールしてご利用ください。
 
 対象フォルダ：hakoniwa-unity-picomodel\plugin\plugin-srcs
+
+Unityのバージョン違いに起因するメッセージ（"Opening Project in Non-Matching Editor Installation"）が出る場合は、「Continue」として問題ありません。
 
 以下のダイアログが出ますが、`Continue` してください。
 
@@ -63,11 +65,11 @@ cd hakoniwa-unity-picomodel/
 
 ## gRPC のライブラリ利用箇所がエラー出力している問題の対応
 
-Unityエディタの `Editor/ProjectSettings/Player/ScriptCompilation` を開きます。
+Unityエディタのメニューの `Edit` -> `Project Settings` -> `Player` -> `Other Settings` -> `Script Compilation` を開きます。
 
 ![スクリーンショット 2023-08-05 17 11 12](https://github.com/toppers/hakoniwa-unity-ev3model/assets/164193/f3bc26de-2daf-482c-abc3-f891d7f5984e)
 
-上図のように、`NO_USE_GRPC` を追加して `Apply` します。
+上図のように、`Scripting Define Symbols` に `NO_USE_GRPC` を追加して `Apply` します。
 
 ## Newtonsoft.Json が不足している問題の対応
 
@@ -79,7 +81,7 @@ gRPC の対応をしても、Unityエディタのバージョンによっては�
 
 Unityのパッケージマネージャから Newtonsoft.Jsonをインストールすることで解消できます。
 
-`Window/PackageManger`を開き、下図のように、`+` をクリックし、`Add pacakge from git` をクリックします。
+`Window` -> `Package Manger`を開き、下図のように、`+` をクリックし、`Add pacakge from git URL...` をクリックします。
 `com.unity.nuget.newtonsoft-json` を入力して、`Add` をクリックすると、インストールが始まり、エラーが解消されます。
 
 <img width="794" alt="スクリーンショット 2023-08-05 17 15 16" src="https://github.com/toppers/hakoniwa-unity-ev3model/assets/164193/828e3256-7e8b-4677-92b4-55cbb980db0f">
@@ -92,7 +94,7 @@ Unityのパッケージマネージャから Newtonsoft.Jsonをインストー�
 ![スクリーンショット 2023-08-28 7 58 37](https://github.com/toppers/hakoniwa-unity-picomodel/assets/164193/d60d2bb2-ee77-441c-aed8-a07a0ada17f4)
 
 
-そして、`Window/Hakoniwa/Generate` をクリックします。
+そして、`Window` -> `Hakoniwa` -> `Generate` をクリックします。
 
 ![スクリーンショット 2023-08-28 7 59 45](https://github.com/toppers/hakoniwa-unity-picomodel/assets/164193/85ab96b7-fd8b-4547-a4a3-c386d0a35813)
 
