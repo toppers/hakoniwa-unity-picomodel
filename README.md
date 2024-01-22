@@ -101,6 +101,43 @@ Unityのパッケージマネージャから Newtonsoft.Jsonをインストー�
 
 ![スクリーンショット 2023-08-28 8 00 16](https://github.com/toppers/hakoniwa-unity-picomodel/assets/164193/6fa55a56-1693-4728-b0ef-091e10fb4b22)
 
+
+# IPアドレスの設定
+
+AR連携するには、`Hakoniwa`と`ARDevice`シーンのIPアドレスを設定する必要があります。
+
+## Hakoniwa
+
+ヒエラルキービューの`AR`をクリックします。
+
+![スクリーンショット 2024-01-23 6 46 50](https://github.com/toppers/hakoniwa-unity-picomodel/assets/164193/33161c8c-ced0-41fb-9c7d-a6cbd2dd3603)
+
+インスペクタービューの`Server_ipaddr`と`Client_ipaddr`を設定します。
+
+![スクリーンショット 2024-01-23 6 47 26](https://github.com/toppers/hakoniwa-unity-picomodel/assets/164193/85b78909-48fa-4815-887b-6ad02eedf805)
+
+
+* Server_ipaddr: パソコンのIPアドレス
+* Client_ipaddr: AR端末のIPアドレス
+
+## ARDevice
+
+ヒエラルキービューの`AR`をクリックします。
+
+![スクリーンショット 2024-01-23 6 48 56](https://github.com/toppers/hakoniwa-unity-picomodel/assets/164193/8b23dc3e-36b5-40f5-b36b-6abfcb40923a)
+
+インスペクタービューの`Server_ipaddr`と`Client_ipaddr`を設定します。
+
+![スクリーンショット 2024-01-23 6 49 28](https://github.com/toppers/hakoniwa-unity-picomodel/assets/164193/4c9951eb-17f0-45b6-b8ca-01a71e1ef39e)
+
+
+* Server_ipaddr: AR端末のIPアドレス
+* Client_ipaddr: パソコンのIPアドレス
+
+AR端末向けのアプリのビルドについは、以下を参照してインストールしてください。
+
+https://github.com/toppers/hakoniwa-unity-simasset-plugin/blob/main/README-ar.md
+
 # 本リポジトリの内容とライセンスについて
 
 本リポジトリで公開している箱庭向けUnityアセットは、[hakoniwa-mros2sim](https://github.com/toppers/hakoniwa-mros2sim)と同時に用いることを想定しています。
